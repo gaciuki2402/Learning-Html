@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <h><title=<b>Input Control Elements</b></title></h>
+    </head>
+
+    <body>
+        <p><input type="text" size="50"></p>
+        <p><input type="checkbox" name="color" id="red" value="#F00"></p>
+        <p><input type="radio" name="color" id="green" value="0F0"></p>
+        <p><input checked=""></p>
+        <p><input checked="checked"></p>
+        <label>
+            <input type="radio" name="color" value="#F00">
+            Red
+            <input type="checkbox" name="color" value="#F00">
+            Green
+        </label>
+
+        <fieldset>
+            <legend>Theme color</legend>
+            <p>
+                <input type="radio" name="color" id="red" value="#F00">
+                <label for="red">Red</label>
+            </p>
+            <p>
+                <input type="checkbox" name="color" id="green" value="#0F0">
+                <label for="green">Green</label>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose from the following</legend>
+            <p>
+                <input type="checkbox" name="list" id="Grace" value="#F00">
+                <label for="Grace">Grace</label>
+            </p>
+            <p>
+                <input type="radio" name="list" id="Davie" value="#0F0">
+                <label for="Davie">Davie</label>
+            </p>
+            <p>
+                <input type="checkbox" name="list" id="kinyanjui" value="#00F">
+                <label for="kinyanjui">KinyanjuiDay</label>
+            </p>
+        </fieldset>
+        <p>
+            Marks:<input type="numbers" size="6" name="marks" min="1" max="20"/>
+            Subject Feedback:<input type="range" size="2" name="feedback" min="1" max="5"/>
+
+        </p>
+        <p>
+            <input type="file" accept="image/*" title="Only images are allowed">
+            <input pattern="/d*" title="Numbers only please">
+            email:<input type="email" name="email" required>
+            <input type="submit" value="publish">
+
+        </p>
+        
+    </body>
+</html>
