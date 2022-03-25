@@ -58,6 +58,28 @@
             <input type="submit" value="publish">
 
         </p>
+        <p><input type="color" name="favcolor" value="#ff0000"></p>
+        <p>password:<input type="password" name="password"></p>
+        <p><input type="password" name="password" placeholder="password"></p>
+        <p>
+            <form action="upload_file.php" method="post" enctype="multipart/form-data">
+                select file to upload:
+                <input type="file" name="fileSubmission" id="fileSubmission">
+                <input type="submit" value="upload your file" name="submit">
+                <p><input type="file" name="fileSubmission" id="fileSubmission" multiple>
+                <input type="submit" name="upload your file" name="submit" accept="image/x-png,image/gif,image/jpeg"/>
+                </p>
+                <p>
+                    <button type="button" onclick="alert('hello world')" value="click me"></button>
+                    <p><button type="button" onclick="alert('hello developers,Happy coding.')">Click Me</button></p>
+                    
+
+                </p>
+
+
+
+            </form>
+        </p>
         
     </body>
 </html>
